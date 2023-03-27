@@ -22,18 +22,18 @@
     <repositories>     
     <repository>
       <id>maven-group</id>
-      <url>http://192.168.29.99:8081/repository/myapp-repo/</url>
+      <url>http://192.168.29.99:9090/repository/myapp-repo/</url>
     </repository>
   </repositories>
   
   <distributionManagement>
     <snapshotRepository>
       <id>nexus-snapshots</id>
-      <url>http://localhost:8081/repository/maven-snapshots/</url>
+      <url>http://localhost:9090/repository/maven-snapshots/</url>
     </snapshotRepository>
     <repository>
       <id>nexus-releases</id>
-      <url>http://localhost:8081/repository/maven-releases/</url>
+      <url>http://localhost:9090/repository/maven-releases/</url>
     </repository>
   </distributionManagement>     
 
